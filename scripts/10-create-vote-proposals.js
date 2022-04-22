@@ -8,7 +8,7 @@ const vote = sdk.getVote("0x36ad9BA63012dc3Fc47d9f76636950Ca61EBB1ed");
 const token = sdk.getToken("0xda4187C5302d0adf8017062D364e7Fd8141F788d");
 
 (async () => {
-    /*try {
+    try {
         // Create proposal to mint 420,000 new token to the treasury.
         const amount = 420_000;
         const description = "Should the DAO mint an additional " + amount + " tokens into the treasury?";
@@ -71,7 +71,7 @@ const token = sdk.getToken("0xda4187C5302d0adf8017062D364e7Fd8141F788d");
         );
     } catch (error) {
         console.error("failed to create second proposal", error);
-    }*/
+    }
     
     try {
         // Create proposal to donate to the Forest Preservation Foundation.
