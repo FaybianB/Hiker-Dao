@@ -1,4 +1,4 @@
-# HikerDAO built with thirdweb
+# HikerDAO
 
 ### **Welcome 👋**
 This project builds a DAO strictly through Javascript using the tools provided by thirdweb (https://thirdweb.com/).
